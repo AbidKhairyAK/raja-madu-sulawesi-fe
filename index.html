@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Raja Madu Sulawesi</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<script src="https://cdn.tailwindcss.com"></script>
+	<script>
+		tailwind.config = {
+			theme: {
+				container: {
+					center: true,
+					padding: {
+						DEFAULT: '1rem',
+						sm: '2rem',
+						lg: '4rem',
+						xl: '5rem',
+						'2xl': '6rem',
+					}
+				}
+			}
+		}
+	</script>
+</head>
+<body>
+	<header class="container">
+		<div class="flex justify-between py-4">
+			<a href="">Logo</a>
+
+			<nav class="flex gap-6">
+				<a href="">Home</a>
+				<a href="">About Us</a>
+				<a href="">Honey</a>
+				<a href="">Page</a>
+				<a href="">Blog</a>
+				<a href="">Contact Us</a>
+			</nav>
+
+			<section>
+				<a href="">
+					<i data-lucide="shopping-cart" class="text-sm"></i>
+				</a>
+			</section>
+		</div>
+	</header>
+
+	<div class="h-[calc(100vh-3.5rem)] align-middle flex flex-col justify-center">
+		<div class="container">
+			<section class="max-w-md w-full">
+				<p class="text-yellow-500 italic text-2xl font-semilight mb-2">
+					Best Organic & Fresh Honey
+				</p>
+				<h1 class="font-semibold text-5xl mb-5 leading-tight">
+					A Good Source Of Antioxidants
+				</h1>
+				<p class="text-black/50 mb-8">
+					Organic And Fresh Honey Sale Up To 33% Off!
+				</p>
+				<button class="bg-yellow-500 text-white font-bold py-3 px-6 rounded text-sm">
+					SHOP NOW
+				</button>
+			</section>
+		</div>
+	</div>
+
+	<script src="https://unpkg.com/lucide@latest"></script>
+	<script>
+		lucide.createIcons();
+	</script>
+</body>
+</html>
